@@ -1,0 +1,27 @@
+{
+  "name": "smidig_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-prebuild": "npm install -f",
+    "heroku-postbuild": "npm run prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
