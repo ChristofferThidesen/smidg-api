@@ -8,9 +8,7 @@
     "dev": "nodemon server.js",
     "start": "node server.js",
     "build": "npm install",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-prebuild": "npm install -f",
-    "heroku-postbuild": "npm run prod"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
